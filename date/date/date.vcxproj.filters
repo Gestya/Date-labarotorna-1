@@ -26,29 +26,29 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="date.h">
-      <Filter>Header Files\stuct</Filter>
+    <ClInclude Include="Header Files\function\action\add.h">
+      <Filter>Header Files\function\action</Filter>
     </ClInclude>
-    <ClInclude Include="tree.h">
-      <Filter>Header Files\stuct</Filter>
+    <ClInclude Include="Header Files\function\action\delet.h">
+      <Filter>Header Files\function\action</Filter>
     </ClInclude>
-    <ClInclude Include="menu.h">
+    <ClInclude Include="Header Files\function\action\found.h">
+      <Filter>Header Files\function\action</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\function\action\show.h">
+      <Filter>Header Files\function\action</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\function\menu.h">
       <Filter>Header Files\function</Filter>
     </ClInclude>
-    <ClInclude Include="add.h">
-      <Filter>Header Files\function\action</Filter>
+    <ClInclude Include="Header Files\stuct\date.h">
+      <Filter>Header Files\stuct</Filter>
     </ClInclude>
-    <ClInclude Include="action.h">
+    <ClInclude Include="Header Files\stuct\tree.h">
+      <Filter>Header Files\stuct</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\function\action.h">
       <Filter>Header Files\function</Filter>
-    </ClInclude>
-    <ClInclude Include="show.h">
-      <Filter>Header Files\function\action</Filter>
-    </ClInclude>
-    <ClInclude Include="found.h">
-      <Filter>Header Files\function\action</Filter>
-    </ClInclude>
-    <ClInclude Include="delet.h">
-      <Filter>Header Files\function\action</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -58,40 +58,40 @@
     <ClCompile Include="menu.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="add.cpp">
-      <Filter>Source Files\action</Filter>
-    </ClCompile>
-    <ClCompile Include="show.cpp">
-      <Filter>Source Files\action</Filter>
-    </ClCompile>
-    <ClCompile Include="found.cpp">
-      <Filter>Source Files\action</Filter>
-    </ClCompile>
-    <ClCompile Include="d_day.cpp">
-      <Filter>Source Files\action</Filter>
-    </ClCompile>
-    <ClCompile Include="diferent.cpp">
-      <Filter>Source Files\action</Filter>
-    </ClCompile>
-    <ClCompile Include="write_class.cpp">
+    <ClCompile Include="Source File\action\whit class\filtr.cpp">
       <Filter>Source Files\action\with class</Filter>
     </ClCompile>
-    <ClCompile Include="get_se.cpp">
+    <ClCompile Include="Source File\action\whit class\get_se.cpp">
       <Filter>Source Files\action\with class</Filter>
     </ClCompile>
-    <ClCompile Include="summ_time.cpp">
+    <ClCompile Include="Source File\action\whit class\leap_year.cpp">
+      <Filter>Source Files\action\with class</Filter>
+    </ClCompile>
+    <ClCompile Include="Source File\action\whit class\show_class.cpp">
+      <Filter>Source Files\action\with class</Filter>
+    </ClCompile>
+    <ClCompile Include="Source File\action\whit class\write_class.cpp">
+      <Filter>Source Files\action\with class</Filter>
+    </ClCompile>
+    <ClCompile Include="Source File\action\add.cpp">
       <Filter>Source Files\action</Filter>
     </ClCompile>
-    <ClCompile Include="filtr.cpp">
-      <Filter>Source Files\action\with class</Filter>
+    <ClCompile Include="Source File\action\d_day.cpp">
+      <Filter>Source Files\action</Filter>
     </ClCompile>
-    <ClCompile Include="leap_year.cpp">
-      <Filter>Source Files\action\with class</Filter>
+    <ClCompile Include="Source File\action\delet.cpp">
+      <Filter>Source Files\action</Filter>
     </ClCompile>
-    <ClCompile Include="show_class.cpp">
-      <Filter>Source Files\action\with class</Filter>
+    <ClCompile Include="Source File\action\diferent.cpp">
+      <Filter>Source Files\action</Filter>
     </ClCompile>
-    <ClCompile Include="delet.cpp">
+    <ClCompile Include="Source File\action\found.cpp">
+      <Filter>Source Files\action</Filter>
+    </ClCompile>
+    <ClCompile Include="Source File\action\show.cpp">
+      <Filter>Source Files\action</Filter>
+    </ClCompile>
+    <ClCompile Include="Source File\action\summ_time.cpp">
       <Filter>Source Files\action</Filter>
     </ClCompile>
   </ItemGroup>

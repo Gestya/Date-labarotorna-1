@@ -1,5 +1,5 @@
 #include<iostream>
-#include "action.h"
+#include "../../../Header Files/function/action.h"
 
 
 /*Функція що потрібна при додавання елемента у дерева, що б перевірити усі значення класу. 

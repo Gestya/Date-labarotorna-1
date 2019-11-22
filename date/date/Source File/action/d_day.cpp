@@ -1,5 +1,5 @@
 #include<iostream>
-#include "action.h"
+#include "../../Header Files/function/action.h"
 
 //Знаходження додаткового кофіциєнта для року.
 int ind(int a)

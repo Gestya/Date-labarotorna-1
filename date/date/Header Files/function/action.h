@@ -1,7 +1,7 @@
 #pragma once
-#include "tree.h"
+#include "../stuct/tree.h"
 
-#include"add.h"
-#include"show.h"
-#include"found.h"
-#include"delet.h"
+#include "action/add.h"
+#include "action/show.h"
+#include "action/found.h"
+#include "action/delet.h"
