@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\stuct">
+      <UniqueIdentifier>{92ff4558-e8b1-4cd4-9f01-5f5120b970e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\function">
+      <UniqueIdentifier>{a7e0471b-f5ff-42d3-a4a2-80d6e5ef0a24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\function\action">
+      <UniqueIdentifier>{2d907b14-d1c9-45f8-8e77-adcee4922f5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\action">
+      <UniqueIdentifier>{a6498060-1ec7-4d7f-9e6e-63144d5dba8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\action\with class">
+      <UniqueIdentifier>{96b83973-fc75-4b8a-b7b6-61125bcbe6a8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header Files\function\action\add.h">
+      <Filter>Header Files\function\action</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\function\action\delet.h">
+      <Filter>Header Files\function\action</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\function\action\show.h">
+      <Filter>Header Files\function\action</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\function\menu.h">
+      <Filter>Header Files\function</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\stuct\tree.h">
+      <Filter>Header Files\stuct</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\function\action.h">
+      <Filter>Header Files\function</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\stuct\Data.h">
+      <Filter>Header Files\stuct</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\function\action\find.h">
+      <Filter>Header Files\function\action</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\function\action\summ_time.h">
+      <Filter>Header Files\function\action</Filter>
+    </ClInclude>
+    <ClInclude Include="diferent.h">
+      <Filter>Header Files\function\action</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="date.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source File\action\whit class\filtr.cpp">
+      <Filter>Source Files\action\with class</Filter>
+    </ClCompile>
+    <ClCompile Include="Source File\action\whit class\get_se.cpp">
+      <Filter>Source Files\action\with class</Filter>
+    </ClCompile>
+    <ClCompile Include="Source File\action\whit class\leap_year.cpp">
+      <Filter>Source Files\action\with class</Filter>
+    </ClCompile>
+    <ClCompile Include="Source File\action\whit class\show_class.cpp">
+      <Filter>Source Files\action\with class</Filter>
+    </ClCompile>
+    <ClCompile Include="Source File\action\whit class\write_class.cpp">
+      <Filter>Source Files\action\with class</Filter>
+    </ClCompile>
+    <ClCompile Include="Source File\action\add.cpp">
+      <Filter>Source Files\action</Filter>
+    </ClCompile>
+    <ClCompile Include="Source File\action\d_day.cpp">
+      <Filter>Source Files\action</Filter>
+    </ClCompile>
+    <ClCompile Include="Source File\action\delet.cpp">
+      <Filter>Source Files\action</Filter>
+    </ClCompile>
+    <ClCompile Include="Source File\action\diferent.cpp">
+      <Filter>Source Files\action</Filter>
+    </ClCompile>
+    <ClCompile Include="Source File\action\show.cpp">
+      <Filter>Source Files\action</Filter>
+    </ClCompile>
+    <ClCompile Include="Source File\action\summ_time.cpp">
+      <Filter>Source Files\action</Filter>
+    </ClCompile>
+    <ClCompile Include="Source File\action\find.cpp">
+      <Filter>Source Files\action</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
