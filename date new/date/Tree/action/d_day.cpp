@@ -1,7 +1,9 @@
 #include<iostream>
-#include "../../Header Files/function/action.h"
+#include "../function/action.h"
 
-//Знаходження додаткового кофіциєнта для року.
+/* Find the coefficient for the year.
+in: year
+return: number of coefficient*/
 int ind(int a)
 {
 	a /= 100;
@@ -16,8 +18,9 @@ int ind(int a)
 	return re;
 }
 
-//Знаходження дня тижня.
-void date::d_day()
+//Finding the day of the week.
+//in: class
+void Data::d_day()
 {
 	int f1;
 

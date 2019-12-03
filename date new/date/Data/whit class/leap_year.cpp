@@ -1,9 +1,9 @@
 #include<iostream>
-#include "../../../Header Files/function/action.h"
+#include "../../Tree/function/action.h"
 
 
-//перевірка високосного року.
-bool date::leap_year()
+//leap year check.
+bool Data::leap_year()
 {
 
 	if (year % 400 == 0)

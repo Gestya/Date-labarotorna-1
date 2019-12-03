@@ -1,7 +1,7 @@
 #include <iostream>
-#include "../../Header Files/function/action.h"
+#include "../function/action.h"
 
-
+/*walks through all the elements of the tree, include a feature for writing the class.*/
 int show(tree *begin, int b)
 {
 	tree* showtree = begin;
@@ -26,6 +26,10 @@ int show(tree *begin, int b)
 	return b;
 }
 
+
+/*determines the maximum number of elements in a tree
+in: pointer to the beginning of the tree and B returning (B in the process indicates which item we stopped at).
+return: maximum number of elements*/
 int max_number(tree *begin, int b)
 {
 	tree* showtree = begin;

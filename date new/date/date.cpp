@@ -1,8 +1,8 @@
 #include <iostream>
 
-#include "Header Files/function/menu.h"
+#include "Tree/function/menu.h"
 
-//6.9
+//Option 6.9
 
 
 
@@ -11,7 +11,7 @@ int main()
 
 	bool check = true;
 
-
+	//Function to turn the program on or off
 	for (;;)
 	{
 		if (check)

@@ -1,5 +1,5 @@
 #include<iostream>
-#include "action.h"
+#include "../../Header Files/function/action.h"
 
 
 // Перевод секунд у звичайний запис дати.

@@ -1,12 +1,14 @@
 #include<iostream>
-#include "../../../Header Files/function/action.h"
+#include "../../Tree/function/action.h"
 
-void date::write_class()
+
+// Function with all validity checks of the recorded data value.
+void Data::write_class()
 {
 	int bb = 0;
 	int check = 0;
 
-	//додаванн€ року
+	//Check and record year
 	do{
 		std::cout << "write year: ";
 		std::cin >> bb;
@@ -23,7 +25,7 @@ void date::write_class()
 	} while (check != 1);
 
 
-	//додаванн€ м≥с€ц€ 
+	//Check and record the month 
 	do {
 		std::cout << "write month: ";
 		std::cin >> bb;
@@ -40,7 +42,7 @@ void date::write_class()
 		}
 	} while (check != 1);
 
-	//додаванн€ дн≥в 
+	//Checking and recording days
 	do {
 		std::cout << "write day: ";
 		std::cin >> bb;
@@ -58,7 +60,7 @@ void date::write_class()
 		}
 		else if (month == 2)
 		{
-			bool yr = leap_year(); // true - висок≥сний р≥к.
+			bool yr = leap_year(); // true - a leap year.
 
 			if (yr && day > 29)
 			{
@@ -87,7 +89,7 @@ void date::write_class()
 		}
 	} while (check != 1);
 
-	//додаванн€ годин
+	//додаванн€ Checking and recording hours
 	do
 	{
 		std::cout << "write hour: ";
@@ -106,7 +108,7 @@ void date::write_class()
 
 	} while (check != 1);
 
-	//додаванн€ хвилин
+	//Check and record minutes
 	do {
 		std::cout << "write minute: ";
 		std::cin >> bb;
@@ -123,7 +125,7 @@ void date::write_class()
 		}
 	} while (check != 1);
 
-	//додаванн€ секунд 
+	//додаванн€ Check and record seconds
 	do{
 		std::cout << "write second: ";
 		std::cin >> bb;

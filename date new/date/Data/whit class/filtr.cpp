@@ -1,11 +1,11 @@
 #include<iostream>
-#include "../../../Header Files/function/action.h"
+#include "../../Tree/function/action.h"
 
 
-/*Функція що потрібна при додавання елемента у дерева, що б перевірити усі значення класу. 
-Якщо програма повертає 3, то повернути ліворуч. Якщо  2 - праворуч. 
-І у випадку 1, не додавати елемент, бо він вже є у дереві.*/
-int date::filtr(tree* a, tree*b)
+/*Function needed when adding an element to trees to check all class values.
+If the program returns 3, then turn left. If 2 - right.
+And in case 1, do not add an element because it is already in the tree.*/
+/*int Data::filtr(tree* a, tree*b)
 {
 	if (a->d.year < b->d.year)
 		return 3;
@@ -38,4 +38,4 @@ int date::filtr(tree* a, tree*b)
 		return 2;
 
 	return 1;
-}
+}*/

@@ -1,9 +1,9 @@
 #include<iostream>
-#include "../../../Header Files/function/action.h"
+#include "../../Tree/function/action.h"
 
 
-//переводіть усі значення у секунди для дальнійшого використання. 
-double date::get_se()
+//translate all values in seconds for future reference. 
+double Data::get_se()
 {
 	double result = 0;
 

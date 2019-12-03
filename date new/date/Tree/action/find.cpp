@@ -1,6 +1,10 @@
 #include<iostream>
-#include"../../Header Files/function/action.h"
+#include"../function/action.h"
 
+
+/*Finds the element due to the coefficient
+In: pointer to the beginning
+Returns: pointer to found item*/
 int deeping(tree* begin, tree*& end, int b, int bb)
 {
 	if (b == bb)
@@ -13,8 +17,10 @@ int deeping(tree* begin, tree*& end, int b, int bb)
 	return b;
 }
 
-
-tree* found(tree *begin)
+/*Specifies the function to find.
+In: pointer to the beginning
+Returns: pointer to found item*/
+tree* find(tree *begin)
 {
 	for (;;)
 	{	

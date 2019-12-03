@@ -154,13 +154,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="diferent.h" />
     <ClInclude Include="Header Files\function\action.h" />
     <ClInclude Include="Header Files\function\action\add.h" />
     <ClInclude Include="Header Files\function\action\delet.h" />
-    <ClInclude Include="Header Files\function\action\found.h" />
+    <ClInclude Include="Header Files\function\action\find.h" />
     <ClInclude Include="Header Files\function\action\show.h" />
+    <ClInclude Include="Header Files\function\action\summ_time.h" />
     <ClInclude Include="Header Files\function\menu.h" />
-    <ClInclude Include="Header Files\stuct\date.h" />
+    <ClInclude Include="Header Files\stuct\Data.h" />
     <ClInclude Include="Header Files\stuct\tree.h" />
   </ItemGroup>
   <ItemGroup>
@@ -182,7 +184,7 @@
       </PrecompiledHeaderOutputFile>
     </ClCompile>
     <ClCompile Include="Source File\action\d_day.cpp" />
-    <ClCompile Include="Source File\action\found.cpp">
+    <ClCompile Include="Source File\action\find.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
       </PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">

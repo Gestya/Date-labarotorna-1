@@ -1,7 +1,10 @@
 #include<iostream>
-#include "../../Header Files/function/action.h"
+#include "../function/action.h"
 
 
+/*Removing the initial element of a tree
+in: the beginning of the tree, and the element.
+out: Tree without that element change begin.*/
 void spec_del(tree* dell, tree*& begin)
 {
 	tree* down = dell->left;
@@ -24,6 +27,9 @@ void spec_del(tree* dell, tree*& begin)
 	}
 }
 
+/*deletes the specified tree element.
+in: the beginning of the tree, and the element.
+out: Tree without that element, can be change begin.*/
 void delet(tree* dell, tree*& begin)
 {
 	if (!dell->left && !dell->right)
